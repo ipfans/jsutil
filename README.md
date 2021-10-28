@@ -1,4 +1,7 @@
 # jsutil
+
+[![Go Reference](https://pkg.go.dev/badge/github.com/ipfans/jsutil.svg)](https://pkg.go.dev/github.com/ipfans/jsutil)
+
 WebAssembly to JavaScript interoperability extensions for go-app. This library only works in wasm mode.
 
 ## Install
@@ -6,4 +9,3 @@ WebAssembly to JavaScript interoperability extensions for go-app. This library o
 ```
 go get github.com/ipfans/jsutil@latest
 ```
-
