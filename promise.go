@@ -1,5 +1,3 @@
-//go:build wasm
-
 package jsutil
 
 import "github.com/maxence-charriere/go-app/v9/pkg/app"

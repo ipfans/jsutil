@@ -1,0 +1,10 @@
+# https://taskfile.dev
+
+version: "3"
+
+tasks:
+  default:
+    cmds:
+      - GOARCH=wasm GOOS=js go build -o web/app.wasm
+      - go build -o example{{exeExt}} main.go
+      - ./example{{exeExt}}
